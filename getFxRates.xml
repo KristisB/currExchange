@@ -21,8 +21,8 @@
 <meta property="og:url" content="https://www.lb.lt/">
 <meta property="og:title" content="Lietuvos bankas">
 <meta property="og:description" content="Mūsų misija – kurti naudą visuomenei siekiant patikimos finansų sistemos ir tvarios ekonomikos plėtros.">
-<meta property="og:image" content="https://www.lb.lt/images/lietuvos_bankas_share_lt.png?1598367579">
-<meta property="og:updated_time" content="1599063874" />
+<meta property="og:image" content="https://www.lb.lt/images/lietuvos_bankas_share_lt.png?1599136949">
+<meta property="og:updated_time" content="1599225733" />
 <link rel="canonical" href="//www.lb.lt/" />
 <link rel="stylesheet" type="text/css" href="/Framework/scripts/vendors/font-awesome/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="/Framework/scripts/vendors/select2-3.5.4/select2.css" />
@@ -32,10 +32,10 @@
 <link rel="stylesheet" type="text/css" href="/Framework/scripts/vendors/jquery/plugins/ui-1.12.1/jquery-ui.theme.min.css" />
 <link rel="stylesheet" type="text/css" href="/Framework/scripts/vendors/fancybox_2.1.5/jquery.fancybox.css" />
 <link rel="stylesheet" type="text/css" href="/scripts/lightslider/css/lightslider.min.css" />
-<link rel="stylesheet" type="text/css" href="/scss/statistics.css?1598367579" />
-<link rel="stylesheet" rev="stylesheet" href="/scss/screen.css?1598367579" type="text/css" media="screen,print" charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="/scss/statistics.css?1599136949" />
+<link rel="stylesheet" rev="stylesheet" href="/scss/screen.css?1599136949" type="text/css" media="screen,print" charset="utf-8" />
 
-<link rel="stylesheet" href="/scss/print.css?1598367579" type="text/css" media="print" />
+<link rel="stylesheet" href="/scss/print.css?1599136949" type="text/css" media="print" />
 <link rel="shortcut icon" href="//www.lb.lt/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="icon" href="//www.lb.lt/favicon.ico" type="image/vnd.microsoft.icon" />
 <script>
@@ -60,7 +60,7 @@
 <a href="https://www.facebook.com/Lietuvosbankas/?fref=ts" title="Facebook" target="_blank" class="soc-facebook"><i class="icon-facebook"></i></a>
 <a href="https://www.linkedin.com/company/43856?trk=tyah&amp;trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A43856%2Cidx%3A2-1-2%2CtarId%3A1479825273473%2Ctas%3Alietuvos%20bankas" title="LinkedIn" target="_blank" class="soc-linkedin"><i class="icon-linkedin"></i></a>
 <a href="https://www.youtube.com/user/LietuvosBankas" title="Youtube" target="_blank" class="soc-youtube"><i class="icon-youtube"></i></a>
-<a href="/cdn-cgi/l/email-protection#6e070008012e020c40021a" title="E-mail" target="_blank" class="soc-mail"><i class="icon-mail"></i></a>
+<a href="/cdn-cgi/l/email-protection#b2dbdcd4ddf2ded09cdec6" title="E-mail" target="_blank" class="soc-mail"><i class="icon-mail"></i></a>
 <a href="http://www.lb.lt/lt/news/rss" title="RSS" target="_blank" class="soc-rss"><i class="icon-rss"></i></a>
 </span>
 <span class="languages-default">
@@ -110,7 +110,7 @@ Apie mus
 <a href="//www.lb.lt/lt/misija-vizija-vertybes" title="Misija, vizija, vertybės">
 <span>Misija, vizija, vertybės</span>
 </a>
-<div class="summary">Lietuvos banko misija – kurti naudą visuomenei siekiant patikimos finansų sistemos ir tvarios ekonomikos plėtros.</div>
+ <div class="summary">Lietuvos banko misija – kurti naudą visuomenei siekiant patikimos finansų sistemos ir tvarios ekonomikos plėtros.</div>
 </li>
 <li class="  col-md-3 col-sm-4">
 <a href="//www.lb.lt/lt/strategines-kryptys" title="Strateginės kryptys">
@@ -185,7 +185,7 @@ Apie mus
 <span>Departamentai</span>
 </a>
 </li>
- <li class=" dropdown-submenu">
+<li class=" dropdown-submenu">
 <a href="//www.lb.lt/lt/skyriai" title="Skyriai">
 <span>Skyriai</span>
 </a>
@@ -388,7 +388,7 @@ Veiklos sritys
 </a>
 </li>
 </ul>
- </li>
+</li>
 <li class="  dropdown col-md-3 col-sm-4">
 <a href="//www.lb.lt/lt/mokejimai" title="Mokėjimai">
 <span>Mokėjimai</span>
@@ -428,7 +428,7 @@ Veiklos sritys
 <a href="//www.lb.lt/lt/pakaitiniu-identifikatoriu-paieskos-paslauga" title="Pakaitinių identifikatorių paieškos paslauga">
 <span>Pakaitinių identifikatorių paieškos paslauga</span>
 </a>
-</li>
+ </li>
 </ul>
 </li>
 <li class="clear visible-sm-block"></li> <li class="  dropdown col-md-3 col-sm-4">
@@ -647,13 +647,13 @@ Veiklos sritys
 </a>
 </li>
 <li class=" dropdown-submenu">
-<a href="//www.lb.lt/lt/euru-banknotai" title="Eurų banknotai">
-<span>Eurų banknotai</span>
+<a href="//www.lb.lt/lt/euru-banknotai-ir-monetos" title="Eurų banknotai ir monetos">
+<span>Eurų banknotai ir monetos</span>
 </a>
 </li>
-<li class=" ">
-<a href="//www.lb.lt/lt/euru-monetos" title="Eurų monetos">
-<span>Eurų monetos</span>
+<li class=" dropdown-submenu">
+<a href="//www.lb.lt/lt/litu-banknotai-ir-monetos" title="Litų banknotai ir monetos">
+<span>Litų banknotai ir monetos</span>
 </a>
 </li>
 <li class=" dropdown-submenu">
@@ -662,18 +662,13 @@ Veiklos sritys
 </a>
 </li>
 <li class=" ">
-<a href="//www.lb.lt/lt/litu-keitimas-i-eurus" title="Litų keitimas į eurus">
+ <a href="//www.lb.lt/lt/litu-keitimas-i-eurus" title="Litų keitimas į eurus">
 <span>Litų keitimas į eurus</span>
 </a>
 </li>
 <li class=" dropdown-submenu">
 <a href="//www.lb.lt/lt/gp-grynuju-pinigu-tvarkytojams" title="Grynųjų pinigų tvarkytojams">
 <span>Grynųjų pinigų tvarkytojams</span>
-</a>
-</li>
-<li class=" dropdown-submenu">
-<a href="//www.lb.lt/lt/litu-banknotai-ir-monetos" title="Litų banknotai ir monetos">
-<span>Litų banknotai ir monetos</span>
 </a>
 </li>
 <li class=" ">
@@ -707,7 +702,7 @@ Veiklos sritys
 <a href="//www.lb.lt/lt/investavimas" title="Investavimas">
 <span>Investavimas</span>
 </a>
-</li>
+ </li>
 <li class=" dropdown-submenu">
 <a href="//www.lb.lt/lt/mokejimai-2" title="Mokėjimai">
 <span>Mokėjimai</span>
@@ -747,7 +742,7 @@ Paslaugos gyventojams
 <span>Įsigykite proginę ar kolekcinę monetą</span>
 </a>
 <div class="summary">Peržiūrėkite proginių ir kolekcinių monetų sąrašą. Jų galite įsigyti el. parduotuvėje www.monetos.lb.lt.</div>
- </li>
+</li>
 <li class="  col-md-3 col-sm-4">
 <a href="//www.lb.lt/lt/nemokamai-issikeiskite-litus-i-eurus-1" title="Nemokamai išsikeiskite litus į eurus">
 <span>Nemokamai išsikeiskite litus į eurus</span>
@@ -813,7 +808,7 @@ Finansų įstaigoms
 </li>
 <li class="  dropdown col-md-3 col-sm-4">
 <a href="//www.lb.lt/lt/aktuali-informacija-finansu-rinkos-dalyviams" title="Aktuali informacija finansų rinkos dalyviams">
-<span>Aktuali informacija finansų rinkos dalyviams</span>
+ <span>Aktuali informacija finansų rinkos dalyviams</span>
 </a>
 <ul class="dropdown-menu level_3">
 <li class=" ">
@@ -877,7 +872,7 @@ Finansų įstaigoms
 <a href="//www.lb.lt/lt/imoniu-sertifikavimo-sistema-1" title="Įmonių sertifikavimo sistema">
 <span>Įmonių sertifikavimo sistema</span>
 </a>
-<div class="summary">Sistema skirta aprūpinti nebankinio sektoriaus įmones, teikiančias duomenis Lietuvos bankui, sertifikatais.</div>
+ <div class="summary">Sistema skirta aprūpinti nebankinio sektoriaus įmones, teikiančias duomenis Lietuvos bankui, sertifikatais.</div>
 </li>
 <li class="clear hidden-sm"></li>
 </ul>
@@ -1130,7 +1125,7 @@ Teisinė informacija
 <a href="//www.lb.lt/lt/naujienos" title="Naujienos">
 <span>Naujienos</span>
 </a>
-<div class="summary">Lietuvos banko parengti pranešimai ir svarbios naujienos žiniasklaidai.</div>
+ <div class="summary">Lietuvos banko parengti pranešimai ir svarbios naujienos žiniasklaidai.</div>
 </li>
 <li class="  col-md-3 col-sm-4">
 <a href="//www.lb.lt/lt/komentarai" title="Komentarai">
@@ -1166,7 +1161,7 @@ Teisinė informacija
 <a href="//www.lb.lt/lt/kontaktai-ziniasklaidai" title="Kontaktai žiniasklaidai">
 <span>Kontaktai žiniasklaidai</span>
 </a>
-<div class="summary">Dėl komentarų žiniasklaidai galite susisiekti šiais kontaktais: tel. (8 5) 268 0071, el. paštas <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b0ddd5d4d9d1f0dcd29edcc49e">[email&#160;protected]</a></div>
+<div class="summary">Dėl komentarų žiniasklaidai galite susisiekti šiais kontaktais: tel. (8 5) 268 0071, el. paštas <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9af7fffef3fbdaf6f8b4f6eeb4">[email&#160;protected]</a></div>
 </li>
 <li class="  col-md-3 col-sm-4">
 <a href="//www.lb.lt/lt/naujienu-prenumerata" title="Naujienų prenumerata">
@@ -1614,7 +1609,7 @@ Karjera
 Darbas Lietuvos banke
 </a>
 </div>
- </li>
+</li>
 <li class=" ">
 <div class="link-wrap">
 <a href="//www.lb.lt/lt/darbo-pasiulymai" title="Darbo pasiūlymai" class="menu-link">
@@ -1622,7 +1617,7 @@ Darbo pasiūlymai
 </a>
 </div>
 </li>
-<li class=" dropdown">
+ <li class=" dropdown">
 <div class="link-wrap">
 <a href="//www.lb.lt/lt/apie-kviestiniu-tyreju-programa" title="Kviestinių tyrėjų programa" class="menu-link">
 Kviestinių tyrėjų programa
@@ -1896,13 +1891,13 @@ Valiutų kurso politika
 </a>
 </div>
 </li>
- <li class=" dropdown">
+<li class=" dropdown">
 <div class="link-wrap">
 <a href="//www.lb.lt/lt/pinigu-politikos-priemones" title="Pinigų politikos priemonės" class="menu-link">
 Pinigų politikos priemonės
 </a>
 <a class="dd-toggler fa"></a>
-</div>
+ </div>
 <ul class="nav navbar-nav" data-depth="3">
 <li class=" ">
 <div class="link-wrap">
@@ -1958,7 +1953,7 @@ Pinigų politikos operacijos iki euro įvedimo
 <li class=" ">
 <div class="link-wrap">
 <a href="//www.lb.lt/lt/susitarimas-del-grynojo-finansinio-turto" title="Susitarimas dėl grynojo finansinio turto" class="menu-link">
- Susitarimas dėl grynojo finansinio turto
+Susitarimas dėl grynojo finansinio turto
 </a>
 </div>
 </li>
@@ -3057,10 +3052,27 @@ Numizmatinių vertybių platintojai
 </a>
 </div>
 </li>
+</ul>
+</li>
+<li class=" dropdown">
+<div class="link-wrap">
+<a href="//www.lb.lt/lt/euru-banknotai-ir-monetos" title="Eurų banknotai ir monetos" class="menu-link">
+Eurų banknotai ir monetos
+</a>
+<a class="dd-toggler fa"></a>
+</div>
+<ul class="nav navbar-nav" data-depth="3">
 <li class=" ">
 <div class="link-wrap">
-<a href="//www.lb.lt/lt/kuri-lietuviska-euro-moneta-jums-patinka-labiausiai" title="Kuri lietuviška euro moneta Jums patinka labiausiai?" class="menu-link">
-Kuri lietuviška euro moneta Jums patinka labiausiai?
+<a href="//www.lb.lt/lt/euru-monetos" title="Eurų monetos" class="menu-link">
+Eurų monetos
+</a>
+</div>
+</li>
+<li class=" ">
+<div class="link-wrap">
+<a href="//www.lb.lt/lt/euru-banknotai" title="Eurų banknotai" class="menu-link">
+Eurų banknotai
 </a>
 </div>
 </li>
@@ -3068,41 +3080,34 @@ Kuri lietuviška euro moneta Jums patinka labiausiai?
 </li>
 <li class=" dropdown">
 <div class="link-wrap">
-<a href="//www.lb.lt/lt/euru-banknotai" title="Eurų banknotai" class="menu-link">
-Eurų banknotai
+<a href="//www.lb.lt/lt/litu-banknotai-ir-monetos" title="Litų banknotai ir monetos" class="menu-link">
+Litų banknotai ir monetos
 </a>
 <a class="dd-toggler fa"></a>
 </div>
 <ul class="nav navbar-nav" data-depth="3">
 <li class=" ">
 <div class="link-wrap">
-<a href="//www.lb.lt/lt/euru-banknotu-nominalai" title="Eurų banknotų nominalai" class="menu-link">
-Eurų banknotų nominalai
+<a href="//www.lb.lt/lt/litu-banknotai" title="Litų banknotai" class="menu-link">
+Litų banknotai
 </a>
 </div>
 </li>
 <li class=" ">
 <div class="link-wrap">
-<a href="//www.lb.lt/lt/euru-banknotu-atvaizdu-naudojimas" title="Eurų banknotų atvaizdų naudojimas" class="menu-link">
-Eurų banknotų atvaizdų naudojimas
+<a href="//www.lb.lt/lt/litu-monetos" title="Litų monetos" class="menu-link">
+Litų monetos
 </a>
 </div>
 </li>
 <li class=" ">
 <div class="link-wrap">
-<a href="//www.lb.lt/lt/ekspertai-perspeja" title="Ekspertai perspėja" class="menu-link">
-Ekspertai perspėja
+<a href="//www.lb.lt/lt/litu-banknotu-apsaugos-pozymiai" title="Litų banknotų apsaugos požymiai" class="menu-link">
+Litų banknotų apsaugos požymiai
 </a>
 </div>
 </li>
 </ul>
-</li>
-<li class=" ">
-<div class="link-wrap">
-<a href="//www.lb.lt/lt/euru-monetos" title="Eurų monetos" class="menu-link">
-Eurų monetos
-</a>
-</div>
 </li>
 <li class=" dropdown">
 <div class="link-wrap">
@@ -3189,37 +3194,6 @@ Grynųjų pinigų pasiūlos sistemos pertvarka
 <div class="link-wrap">
 <a href="//www.lb.lt/lt/mokymas-apie-padirbtus-ir-netinkamus-apyvartai-grynuosius-pinigus" title="Mokymas apie padirbtus ir netinkamus apyvartai grynuosius pinigus" class="menu-link">
 Mokymas apie padirbtus ir netinkamus apyvartai grynuosius pinigus
-</a>
-</div>
-</li>
-</ul>
-</li>
-<li class=" dropdown">
-<div class="link-wrap">
-<a href="//www.lb.lt/lt/litu-banknotai-ir-monetos" title="Litų banknotai ir monetos" class="menu-link">
-Litų banknotai ir monetos
-</a>
-<a class="dd-toggler fa"></a>
-</div>
-<ul class="nav navbar-nav" data-depth="3">
-<li class=" ">
-<div class="link-wrap">
-<a href="//www.lb.lt/lt/litu-banknotai" title="Litų banknotai" class="menu-link">
-Litų banknotai
-</a>
-</div>
-</li>
-<li class=" ">
-<div class="link-wrap">
-<a href="//www.lb.lt/lt/litu-monetos" title="Litų monetos" class="menu-link">
-Litų monetos
-</a>
-</div>
-</li>
-<li class=" ">
-<div class="link-wrap">
-<a href="//www.lb.lt/lt/litu-banknotu-apsaugos-pozymiai" title="Litų banknotų apsaugos požymiai" class="menu-link">
-Litų banknotų apsaugos požymiai
 </a>
 </div>
 </li>
@@ -3341,7 +3315,7 @@ Investavimas
 <a href="//www.lb.lt/lt/investavimas-nuo-ko-pradeti" title="Investavimas: nuo ko pradėti?" class="menu-link">
 Investavimas: nuo ko pradėti?
 </a>
- </div>
+</div>
 </li>
 <li class=" ">
 <div class="link-wrap">
@@ -4002,7 +3976,7 @@ Viešos konsultacijos
 </div>
 <ul class="nav navbar-nav" data-depth="1">
 <li class=" ">
-<div class="link-wrap">
+ <div class="link-wrap">
 <a href="//www.lb.lt/lt/naujienos" title="Naujienos" class="menu-link">
 Naujienos
 </a>
@@ -4100,7 +4074,7 @@ Kontaktai
 <a href="https://www.facebook.com/Lietuvosbankas/?fref=ts" title="Facebook" target="_blank" class="soc-facebook"><i class="icon-facebook"></i></a>
 <a href="https://www.linkedin.com/company/43856?trk=tyah&amp;trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A43856%2Cidx%3A2-1-2%2CtarId%3A1479825273473%2Ctas%3Alietuvos%20bankas" title="LinkedIn" target="_blank" class="soc-linkedin"><i class="icon-linkedin"></i></a>
 <a href="https://www.youtube.com/user/LietuvosBankas" title="Youtube" target="_blank" class="soc-youtube"><i class="icon-youtube"></i></a>
-<a href="/cdn-cgi/l/email-protection#3e575058517e525c10524a" title="E-mail" target="_blank" class="soc-mail"><i class="icon-mail"></i></a>
+<a href="/cdn-cgi/l/email-protection#f39a9d959cb39f91dd9f87" title="E-mail" target="_blank" class="soc-mail"><i class="icon-mail"></i></a>
 <a href="http://www.lb.lt/lt/news/rss" title="RSS" target="_blank" class="soc-rss"><i class="icon-rss"></i></a>
 </span>
 </div>
@@ -4150,6 +4124,89 @@ Kontaktai
 </li>
 <li class="s_item">
 <div class="item">
+<a href="//www.lb.lt/lt/naujienos/apklausa-covid-19-pandemijos-ikarstyje-bankai-siek-tiek-sugrieztino-skolinimo-standartus" title="Apklausa: COVID-19 pandemijos įkarštyje bankai šiek tiek sugriežtino skolinimo standartus">
+<div class="pic imgLiquid">
+<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26807_bca09fc9f187253ee3d60ce2a6b0cf2c.jpg" alt="apklausa_cover.jpg">
+</div>
+<div class="overlay">
+<div class="title-plain">Apklausa: COVID-19 pandemijos įkarštyje bankai šiek tiek sugriežtino skolinimo standartus</div>
+<div class="date-plain">2020 09 04</div>
+</div>
+</a>
+</div>
+<div class="item">
+<a href="//www.lb.lt/lt/naujienos/lietuvos-banko-valdybos-nutarimai-166" title="Lietuvos banko valdybos nutarimai">
+<div class="pic imgLiquid">
+<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26808_d7573e954a4e197d6865ad4acf98ece4.jpg" alt="23897_799c0ec6151bba892e20090486d9f096.jpg">
+</div>
+<div class="overlay">
+<div class="title-plain">Lietuvos banko valdybos nutarimai</div>
+<div class="date-plain">2020 09 04</div>
+</div>
+</a>
+</div>
+</li>
+<li class="s_item">
+<div class="item">
+<a href="//www.lb.lt/lt/naujienos/lietuvos-banko-prieziuros-tarnybos-sprendimai-277" title="Lietuvos banko Priežiūros tarnybos sprendimai">
+<div class="pic imgLiquid">
+<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26799_acabdc505414df182d450a7c9021d075.jpg" alt="PT sprendimai.jpg">
+</div>
+<div class="overlay">
+<div class="title-plain">Lietuvos banko Priežiūros tarnybos sprendimai</div>
+<div class="date-plain">2020 09 04</div>
+</div>
+</a>
+</div>
+<div class="item">
+<a href="//www.lb.lt/lt/kalbos-interviu-pristatymai/mariaus-jurgilo-pristatymas-valstybes-vaidmuo-versle-vystymo-banku-perspektyva" title="Mariaus Jurgilo pristatymas „Valstybės vaidmuo versle: vystymo bankų perspektyva“">
+<div class="pic imgLiquid">
+<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26782_7423aaa95d835182acc705ce84431e9e.jpg" alt="Marius Jurgilas_Ebit.jpg">
+</div>
+<div class="overlay">
+<div class="title-plain">Mariaus Jurgilo pristatymas „Valstybės vaidmuo versle: vystymo bankų perspektyva“</div>
+<div class="date-plain">2020 09 03</div>
+</div>
+</a>
+</div>
+</li>
+<li class="s_item">
+<div class="item">
+<a href="//www.lb.lt/lt/naujienos/nauji-reikalavimai-elektroniniu-pinigu-ir-mokejimo-istaigoms-daliai-ju-mazinamas-ataskaitu-kruvis" title="Nauji reikalavimai elektroninių pinigų ir mokėjimo įstaigoms, daliai jų mažinamas ataskaitų krūvis">
+<div class="pic imgLiquid">
+<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26776_4f03ffed80417e02531484a38c7c8e4e.jpg" alt="EPI ir MI_nauji reguliavimai.jpg">
+</div>
+<div class="overlay">
+<div class="title-plain">Nauji reikalavimai elektroninių pinigų ir mokėjimo įstaigoms, daliai jų mažinamas ataskaitų krūvis</div>
+<div class="date-plain">2020 09 03</div>
+</div>
+</a>
+</div>
+<div class="item">
+<a href="//www.lb.lt/lt/naujienos/ka-verta-prisiminti-artejant-jungtines-karalystes-ir-europos-sajungos-santykiu-pereinamojo-laikotarpio-pabaigai" title="Ką verta prisiminti artėjant Jungtinės Karalystės ir Europos Sąjungos santykių pereinamojo laikotarpio pabaigai">
+<div class="pic imgLiquid">
+<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26774_ae7c2133f09cd587c87e15c72fe6b2f5.jpg" alt="Brexit.jpg">
+</div>
+<div class="overlay">
+<div class="title-plain">Ką verta prisiminti artėjant Jungtinės Karalystės ir Europos Sąjungos santykių pereinamojo laikotarpio pabaigai</div>
+<div class="date-plain">2020 09 03</div>
+</div>
+</a>
+</div>
+</li>
+<li class="s_item">
+<div class="item">
+<a href="//www.lb.lt/lt/naujienos/ginco-nagrinejimas-kokiais-atvejais-kredito-imokos-neatidedamos" title="Ginčo nagrinėjimas: kokiais atvejais kredito įmokos neatidedamos?">
+<div class="pic imgLiquid">
+<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26796_28a54aca5975ccd532d86f34a47fcfe1.jpg" alt="AdobeStock_86302585.jpg">
+</div>
+<div class="overlay">
+<div class="title-plain">Ginčo nagrinėjimas: kokiais atvejais kredito įmokos neatidedamos?</div>
+<div class="date-plain">2020 09 03</div>
+</div>
+</a>
+</div>
+<div class="item">
 <a href="//www.lb.lt/lt/naujienos/centrolink-fiksuoja-naujus-mokejimo-rekordus" title="CENTROlink fiksuoja naujus mokėjimo rekordus">
 <div class="pic imgLiquid">
 <img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26758_4dc9ae0397a089124be1a33b8a8d6a00.jpg" alt="Centrolink.jpg">
@@ -4160,6 +4217,8 @@ Kontaktai
 </div>
 </a>
 </div>
+</li>
+<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/naujienos/pinigu-plovimo-ir-teroristu-finansavimo-riziku-vertinime-aukstesnis-reitingas-lietuvai" title="Pinigų plovimo ir teroristų finansavimo rizikų vertinime – aukštesnis reitingas Lietuvai">
 <div class="pic imgLiquid">
@@ -4171,8 +4230,6 @@ Kontaktai
 </div>
 </a>
 </div>
-</li>
-<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/naujienos/lietuvos-banko-valdybos-nutarimai-165" title="Lietuvos banko valdybos nutarimai">
 <div class="pic imgLiquid">
@@ -4184,6 +4241,8 @@ Kontaktai
 </div>
 </a>
 </div>
+</li>
+<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/naujienos/toliau-sparciai-didejo-lietuvos-rezidentu-indeliai-o-paskolos-jiems-mazejo-3" title="Toliau sparčiai didėjo Lietuvos rezidentų indėliai, o paskolos jiems mažėjo">
 <div class="pic imgLiquid">
@@ -4195,8 +4254,6 @@ Kontaktai
 </div>
 </a>
 </div>
-</li>
-<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/naujienos/lietuvos-bankas-ragina-elektroniniu-pinigu-ir-mokejimo-istaigas-nepamirsti-kapitalo-reikalavimu" title="Lietuvos bankas ragina elektroninių pinigų ir mokėjimo įstaigas nepamiršti kapitalo reikalavimų">
 <div class="pic imgLiquid">
@@ -4208,6 +4265,8 @@ Kontaktai
 </div>
 </a>
 </div>
+</li>
+<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/naujienos/apklausa-del-koronaviruso-nukentejusioms-imonems-gali-prireikti-bent-metu-finansinei-buklei-atkurti" title="Apklausa: dėl koronaviruso nukentėjusioms įmonėms gali prireikti bent metų finansinei būklei atkurti">
 <div class="pic imgLiquid">
@@ -4219,8 +4278,6 @@ Kontaktai
 </div>
 </a>
 </div>
-</li>
-<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/komentarai/ar-covid-19-pakeis-es-poziuri-i-fiskaline-drausme" title="Ar COVID-19 pakeis ES požiūrį į fiskalinę drausmę?">
 <div class="pic imgLiquid">
@@ -4232,6 +4289,8 @@ Kontaktai
 </div>
 </a>
 </div>
+</li>
+<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/naujienos/lietuvos-bankas-ispeja-bukite-atsargus-netapkite-pinigu-mulais" title="Lietuvos bankas įspėja: būkite atsargūs – netapkite pinigų mulais">
 <div class="pic imgLiquid">
@@ -4243,8 +4302,6 @@ Kontaktai
 </div>
 </a>
 </div>
-</li>
-<li class="s_item">
 <div class="item">
 <a href="//www.lb.lt/lt/naujienos/lietuvos-banko-prieziuros-tarnybos-sprendimai-276" title="Lietuvos banko Priežiūros tarnybos sprendimai">
 <div class="pic imgLiquid">
@@ -4253,90 +4310,6 @@ Kontaktai
 <div class="overlay">
 <div class="title-plain">Lietuvos banko Priežiūros tarnybos sprendimai</div>
 <div class="date-plain">2020 08 25</div>
-</div>
-</a>
-</div>
-<div class="item">
-<a href="//www.lb.lt/lt/naujienos/lietuvos-bankas-vadovausis-esma-gairemis-del-likvidumo-testavimo-nepalankiausiomis-salygomis" title="Lietuvos bankas vadovausis ESMA gairėmis dėl likvidumo testavimo nepalankiausiomis sąlygomis">
-<div class="pic imgLiquid">
-<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26715_9f4d8ebc26430ee3012f8a4821c8038b.jpg" alt="AdobeStock_95999644.jpeg">
-</div>
-<div class="overlay">
-<div class="title-plain">Lietuvos bankas vadovausis ESMA gairėmis dėl likvidumo testavimo nepalankiausiomis sąlygomis</div>
-<div class="date-plain">2020 08 25</div>
-</div>
-</a>
-</div>
-</li>
-<li class="s_item">
-<div class="item">
-<a href="//www.lb.lt/lt/naujienos/naujuoju-lietuvos-banko-valdybos-nariu-paskirtas-gediminas-simkus" title="Naujuoju Lietuvos banko valdybos nariu paskirtas Gediminas Šimkus">
-<div class="pic imgLiquid">
-<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26706_b8ca6cfc1b498aa50d23e5190d0ac8a1.jpg" alt="Simkus-Gediminas-twitter.jpg">
-</div>
-<div class="overlay">
-<div class="title-plain">Naujuoju Lietuvos banko valdybos nariu paskirtas Gediminas Šimkus</div>
-<div class="date-plain">2020 08 25</div>
-</div>
-</a>
-</div>
-<div class="item">
-<a href="//www.lb.lt/lt/naujienos/paskirtas-valstybes-investiciju-valdymo-agenturos-generalinis-direktorius" title="Paskirtas Valstybės investicijų valdymo agentūros generalinis direktorius">
-<div class="pic imgLiquid">
-<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26675_e079c8917d808cc21c49ba21cab82de2.jpg" alt="AdobeStock_227884384.jpeg">
-</div>
-<div class="overlay">
-<div class="title-plain">Paskirtas Valstybės investicijų valdymo agentūros generalinis direktorius</div>
-<div class="date-plain">2020 08 21</div>
-</div>
-</a>
-</div>
-</li>
-<li class="s_item">
-<div class="item">
-<a href="//www.lb.lt/lt/naujienos/per-pirmaji-pusmeti-pensiju-fondams-ir-saltas-dusas-ir-optimizmas" title="Per pirmąjį pusmetį pensijų fondams – ir šaltas dušas, ir optimizmas">
-<div class="pic imgLiquid">
-<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26668_8dab53285694d46682df466d127df2dc.jpg" alt="Finansų rinkos dalyvių priežiūra- besisukančios monetos.jpg">
-</div>
-<div class="overlay">
-<div class="title-plain">Per pirmąjį pusmetį pensijų fondams – ir šaltas dušas, ir optimizmas</div>
-<div class="date-plain">2020 08 20</div>
-</div>
-</a>
-</div>
-<div class="item">
-<a href="//www.lb.lt/lt/naujienos/lietuvos-banko-valdybos-nutarimai-164" title="Lietuvos banko valdybos nutarimai">
-<div class="pic imgLiquid">
-<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26664_17b40f2321e3b7d295cdc013511a58cf.jpg" alt="lb-sprendimai.jpg">
-</div>
-<div class="overlay">
-<div class="title-plain">Lietuvos banko valdybos nutarimai</div>
-<div class="date-plain">2020 08 19</div>
-</div>
-</a>
-</div>
-</li>
-<li class="s_item">
-<div class="item">
-<a href="//www.lb.lt/lt/naujienos/senovines-bitininkystes-tradicija-iamzinta-kolekcine-moneta" title="Senovinės bitininkystės tradicija įamžinta kolekcine moneta">
-<div class="pic imgLiquid">
-<img class="img-responsive" src="//www.lb.lt/uploads/gallery/images/330x190_crop/26649_3b34fdc5b51a67436b6aec63a821ad65.jpg" alt="IMG_7156.jpg">
-</div>
-<div class="overlay has_imgs">
-<div class="title-plain">Senovinės bitininkystės tradicija įamžinta kolekcine moneta</div>
-<div class="date-plain">2020 08 19</div>
-<div class="galerry-icon-plain"><i class="fa fa-camera"></i> 18</div>
-</div>
-</a>
-</div>
-<div class="item">
-<a href="//www.lb.lt/lt/naujienos/apklausa-dabar-pagrindine-rizika-lietuvos-finansu-sistemai-covid-19-pandemijos-neigiamos-pasekmes" title="Apklausa: dabar pagrindinė rizika Lietuvos finansų sistemai – COVID-19 pandemijos neigiamos pasekmės">
-<div class="pic imgLiquid">
-<img class="img-responsive" src="//www.lb.lt/uploads/news/images/330x190_crop/26638_ddd172531d1e4d9544bfc084b738747b.jpg" alt="Kovid-iliustracija.jpeg">
-</div>
-<div class="overlay">
-<div class="title-plain">Apklausa: dabar pagrindinė rizika Lietuvos finansų sistemai – COVID-19 pandemijos neigiamos pasekmės</div>
-<div class="date-plain">2020 08 17</div>
 </div>
 </a>
 </div>
@@ -4413,10 +4386,10 @@ COVID-19: ekonomikos ir finansų pulsas
 CHF
 </td>
 <td class="cur-col-2">
-<span>1,0799</span>
+<span>1,0776</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span class="negative">-0,00660</span>
+<span class="negative">-0,00230</span>
 <i class="currency_icon currency_down"></i>
 </td>
 </tr>
@@ -4432,11 +4405,11 @@ CHF
 GBP
 </td>
 <td class="cur-col-2">
-<span>0,8884</span>
+<span>0,89135</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span class="negative">-0,00135</span>
-<i class="currency_icon currency_down"></i>
+<span>0,00295</span>
+<i class="currency_icon currency_up"></i>
 </td>
 </tr>
 </table>
@@ -4451,10 +4424,10 @@ GBP
 JPY
 </td>
 <td class="cur-col-2">
-<span>126,00</span>
+<span>125,85</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span class="negative">-0,92000</span>
+<span class="negative">-0,15000</span>
 <i class="currency_icon currency_down"></i>
 </td>
 </tr>
@@ -4462,7 +4435,7 @@ JPY
 </a>
 </li>
 <li class="col-sm-12 col-md-6 col-lg-3">
- <a href="//www.lb.lt/lt/currency?currency=NOK&class=Eu&type=day" title="NOK">
+<a href="//www.lb.lt/lt/currency?currency=NOK&class=Eu&type=day" title="NOK">
 <table>
 <tr>
 <td class="cur-col-1">
@@ -4470,11 +4443,11 @@ JPY
 NOK
 </td>
 <td class="cur-col-2">
-<span>10,406</span>
+<span>10,5315</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span class="negative">-0,03180</span>
-<i class="currency_icon currency_down"></i>
+<span>0,12550</span>
+<i class="currency_icon currency_up"></i>
 </td>
 </tr>
 </table>
@@ -4489,10 +4462,10 @@ NOK
 PLN
 </td>
 <td class="cur-col-2">
-<span>4,4186</span>
+<span>4,4269</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span>0,02610</span>
+<span>0,00830</span>
 <i class="currency_icon currency_up"></i>
 </td>
 </tr>
@@ -4508,11 +4481,11 @@ PLN
 RUB
 </td>
 <td class="cur-col-2">
-<span>88,0675</span>
+<span>88,9825</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span class="negative">-0,07990</span>
-<i class="currency_icon currency_down"></i>
+<span>0,91500</span>
+<i class="currency_icon currency_up"></i>
 </td>
 </tr>
 </table>
@@ -4527,11 +4500,11 @@ RUB
 SEK
 </td>
 <td class="cur-col-2">
-<span>10,3065</span>
+<span>10,3393</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span class="negative">-0,05400</span>
-<i class="currency_icon currency_down"></i>
+<span>0,03280</span>
+<i class="currency_icon currency_up"></i>
 </td>
 </tr>
 </table>
@@ -4546,10 +4519,10 @@ SEK
 USD
 </td>
 <td class="cur-col-2">
-<span>1,1861</span>
+<span>1,1813</span>
 </td>
 <td class="cur-col-2 cur-col-3">
-<span class="negative">-0,01260</span>
+<span class="negative">-0,00480</span>
 <i class="currency_icon currency_down"></i>
 </td>
 </tr>
@@ -4565,7 +4538,7 @@ USD
 <div class="widget">
 <div class="title_area clearfix">
 <h3 class="subtitle pull-left">Skaičiuoklė</h3>
-<div class="cur-calculator pull-left" data-currencies='{"EUR":{"rate":1,"images":"\/images\/eu_flag.png","title":"Euras"},"AUD":{"rate":1.6171,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/52_851533434a3e443ea45ba529d658ba26.png","title":"Australijos doleris"},"BGN":{"rate":1.9558,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/62_c3d26e3399c802c9a2fa47f555fe577c.png","title":"Bulgarijos levas"},"BRL":{"rate":6.4204999999999997,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/61_c426375024d57ae4518b4eaa54209e55.png","title":"Brazilijos realas"},"CAD":{"rate":1.5495000000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/63_4f38140d43d84f6db5e7102d7c84f163.png","title":"Kanados doleris"},"CHF":{"rate":1.0799000000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/145_0fdcabf93443b3b1b2d88909171483cf.png","title":"\u0160veicarijos frankas"},"CNY":{"rate":8.0975999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/66_19ccd408a673acea49ccd40db08839fc.png","title":"Kinijos  \u017eenminbi juanis"},"CZK":{"rate":26.338000000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/64_3c61d9e078ea694c2aa55bbda3b75d44.png","title":"\u010cekijos krona"},"DKK":{"rate":7.4412000000000003,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/70_47269cdee81d03f2aec8a96448aeac77.png","title":"Danijos krona"},"GBP":{"rate":0.88839999999999997,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/72_7d275ac2bad1d4651d0d8386f476fa42.png","title":"Did\u017eiosios Britanijos svaras sterling\u0173"},"HKD":{"rate":9.1925000000000008,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/85_759546e5a9fec6c932fceb8136563969.png","title":"Honkongo doleris"},"HRK":{"rate":7.5335000000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/68_422995f5a402b5d1b0db015c8d769e21.png","title":"Kroatijos kuna"},"HUF":{"rate":358.76999999999998,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/86_ec02274a6ee1d1a2c240a960d7ee8b69.png","title":"Vengrijos forintas"},"IDR":{"rate":17489.040000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/89_bf07902728edc2b546c6a820de04345c.png","title":"Indonezijos rupija"},"ILS":{"rate":3.9901,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/93_65f727ebf3693d1c9b4e6a5525ad2674.png","title":"Izraelio  naujasis \u0161ekelis"},"INR":{"rate":86.822500000000005,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/88_e897c7601aa7c0ea0e99ecc1c0a515ca.png","title":"Indijos rupija"},"ISK":{"rate":164.5,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/87_491c20ab64501c1231ed901c2453ea4e.png","title":"Islandijos krona"},"JPY":{"rate":126,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/95_0efa4661d985afc01e97dba35631e1d5.png","title":"Japonijos jena"},"KRW":{"rate":1408.0699999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/131_e1ec90659cdbeb503ba6e9d5d7525cc8.png","title":"Piet\u0173 Kor\u0117jos vonas"},"MXN":{"rate":25.914999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/118_b02273996d59fffce29848246fe4ea09.png","title":"Meksikos pesas"},"MYR":{"rate":4.9176000000000002,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/115_897658e47dd362bdf9972501227c1035.png","title":"Malaizijos ringitas"},"NOK":{"rate":10.406000000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/125_91548c6034c452d107fc45c5247e31d8.png","title":"Norvegijos krona"},"NZD":{"rate":1.7541,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/123_3900813ad2d0a13962e7ba7d08aadddf.png","title":"Naujosios Zelandijos doleris"},"PHP":{"rate":57.664999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/78_ad36265e7e666209fe12d6770ac898a7.png","title":"Filipin\u0173 pesas"},"PLN":{"rate":4.4185999999999996,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/110_d396ab49021f3b02767c5cc578b805a8.png","title":"Lenkijos zlotas"},"RON":{"rate":4.8422999999999998,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/133_4c26174bd3f527970a2bc553cf3e29fe.png","title":"Rumunijos l\u0117ja"},"RUB":{"rate":88.067499999999995,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/134_8700290a3e956dd976cc974db002ccd3.png","title":"Rusijos rublis"},"SEK":{"rate":10.3065,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/144_1ec2d01216f6bcf4e7ca0f6c7ebe7de1.png","title":"\u0160vedijos krona"},"SGD":{"rate":1.6153,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/138_2822d8c97412d4bb17b0cf7ef472fcbe.png","title":"Singap\u016bro doleris"},"THB":{"rate":37.094999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/148_11eef4e3e48d7a4f34e17d1bcf05be2d.png","title":"Tailando batas"},"TRY":{"rate":8.7588000000000008,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/154_e5165cf08940fdb7946d1770eca24e26.png","title":"Turkijos lira"},"USD":{"rate":1.1860999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/96_f3cc3e0f5628bed8f2107fc4c7c5f3cb.png","title":"JAV doleris"},"ZAR":{"rate":19.915400000000002,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/130_ea6ad1047c4cce508aa26e99ccc670f8.png","title":"Piet\u0173 Afrikos Respublikos randas"}}' data-t-currency="Valiuta">
+<div class="cur-calculator pull-left" data-currencies='{"EUR":{"rate":1,"images":"\/images\/eu_flag.png","title":"Euras"},"AUD":{"rate":1.6218999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/52_851533434a3e443ea45ba529d658ba26.png","title":"Australijos doleris"},"BGN":{"rate":1.9558,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/62_c3d26e3399c802c9a2fa47f555fe577c.png","title":"Bulgarijos levas"},"BRL":{"rate":6.3423999999999996,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/61_c426375024d57ae4518b4eaa54209e55.png","title":"Brazilijos realas"},"CAD":{"rate":1.5490999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/63_4f38140d43d84f6db5e7102d7c84f163.png","title":"Kanados doleris"},"CHF":{"rate":1.0775999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/145_0fdcabf93443b3b1b2d88909171483cf.png","title":"\u0160veicarijos frankas"},"CNY":{"rate":8.0801999999999996,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/66_19ccd408a673acea49ccd40db08839fc.png","title":"Kinijos  \u017eenminbi juanis"},"CZK":{"rate":26.367999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/64_3c61d9e078ea694c2aa55bbda3b75d44.png","title":"\u010cekijos krona"},"DKK":{"rate":7.4401000000000002,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/70_47269cdee81d03f2aec8a96448aeac77.png","title":"Danijos krona"},"GBP":{"rate":0.89134999999999998,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/72_7d275ac2bad1d4651d0d8386f476fa42.png","title":"Did\u017eiosios Britanijos svaras sterling\u0173"},"HKD":{"rate":9.1555,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/85_759546e5a9fec6c932fceb8136563969.png","title":"Honkongo doleris"},"HRK":{"rate":7.5354999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/68_422995f5a402b5d1b0db015c8d769e21.png","title":"Kroatijos kuna"},"HUF":{"rate":358.05000000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/86_ec02274a6ee1d1a2c240a960d7ee8b69.png","title":"Vengrijos forintas"},"IDR":{"rate":17536.990000000002,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/89_bf07902728edc2b546c6a820de04345c.png","title":"Indonezijos rupija"},"ILS":{"rate":3.9777,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/93_65f727ebf3693d1c9b4e6a5525ad2674.png","title":"Izraelio  naujasis \u0161ekelis"},"INR":{"rate":86.861500000000007,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/88_e897c7601aa7c0ea0e99ecc1c0a515ca.png","title":"Indijos rupija"},"ISK":{"rate":164.5,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/87_491c20ab64501c1231ed901c2453ea4e.png","title":"Islandijos krona"},"JPY":{"rate":125.84999999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/95_0efa4661d985afc01e97dba35631e1d5.png","title":"Japonijos jena"},"KRW":{"rate":1406.6500000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/131_e1ec90659cdbeb503ba6e9d5d7525cc8.png","title":"Piet\u0173 Kor\u0117jos vonas"},"MXN":{"rate":25.717500000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/118_b02273996d59fffce29848246fe4ea09.png","title":"Meksikos pesas"},"MYR":{"rate":4.8994,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/115_897658e47dd362bdf9972501227c1035.png","title":"Malaizijos ringitas"},"NOK":{"rate":10.531499999999999,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/125_91548c6034c452d107fc45c5247e31d8.png","title":"Norvegijos krona"},"NZD":{"rate":1.7579,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/123_3900813ad2d0a13962e7ba7d08aadddf.png","title":"Naujosios Zelandijos doleris"},"PHP":{"rate":57.389000000000003,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/78_ad36265e7e666209fe12d6770ac898a7.png","title":"Filipin\u0173 pesas"},"PLN":{"rate":4.4268999999999998,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/110_d396ab49021f3b02767c5cc578b805a8.png","title":"Lenkijos zlotas"},"RON":{"rate":4.8472999999999997,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/133_4c26174bd3f527970a2bc553cf3e29fe.png","title":"Rumunijos l\u0117ja"},"RUB":{"rate":88.982500000000002,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/134_8700290a3e956dd976cc974db002ccd3.png","title":"Rusijos rublis"},"SEK":{"rate":10.3393,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/144_1ec2d01216f6bcf4e7ca0f6c7ebe7de1.png","title":"\u0160vedijos krona"},"SGD":{"rate":1.6131,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/138_2822d8c97412d4bb17b0cf7ef472fcbe.png","title":"Singap\u016bro doleris"},"THB":{"rate":37.140000000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/148_11eef4e3e48d7a4f34e17d1bcf05be2d.png","title":"Tailando batas"},"TRY":{"rate":8.7906999999999993,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/154_e5165cf08940fdb7946d1770eca24e26.png","title":"Turkijos lira"},"USD":{"rate":1.1813,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/96_f3cc3e0f5628bed8f2107fc4c7c5f3cb.png","title":"JAV doleris"},"ZAR":{"rate":19.805800000000001,"images":"\/\/www.lb.lt\/uploads\/currency\/images\/30x20_ratio\/130_ea6ad1047c4cce508aa26e99ccc670f8.png","title":"Piet\u0173 Afrikos Respublikos randas"}}' data-t-currency="Valiuta">
 <input class="currency-rate rate-from form-control" data-cur="EUR" data-rate="1" type="text" name="EUR" value="100" />
 <select name="currency-from">
 <option value="EUR" selected>EUR - Euras</option>
@@ -4638,7 +4611,7 @@ USD
 <option value="USD" selected>USD - JAV doleris</option>
 <option value="ZAR">ZAR - Pietų Afrikos Respublikos randas</option>
 </select>
-<input class="currency-rate rate-to form-control" data-cur="USD" data-rate="1.1861" type="text" name="USD" value="" />
+<input class="currency-rate rate-to form-control" data-cur="USD" data-rate="1.1813" type="text" name="USD" value="" />
 <div class="clear"></div>
 </div>
 </div>
@@ -4647,7 +4620,7 @@ USD
 <p class="currency-date">Paskelbimo data:
 <span>
 2020 m. Rugsėjo
-2 d.
+3 d.
 </span>
 <a href="//www.lb.lt/lt/uzsienio-valiutu-santykiu-statistika-1" class="more_link pull-right">Daugiau</a>
 </p>
@@ -4851,6 +4824,40 @@ Visos naujienos
 <div class="col-sm-7 col-md-8">
 <div class="events_list row">
 <div class="item_contain col-xs-6">
+<a href="//www.lb.lt/lt/renginiai/ekonomikos-ir-finansu-komiteto-efc-posedis" class="item" title="Ekonomikos ir finansų komiteto (EFC) posėdis">
+<div class="date">
+<div class="tbl-contain">
+<div class="tbl-inner">
+<span class="day">04</span>
+<span class="month hidden-xs hidden-sm">Rugsėjo</span>
+<span class="month visible-xs-inline-block visible-sm-inline-block">09</span>
+<span class="year">2020</span>
+</div>
+</div>
+</div>
+<div class="title">
+Ekonomikos ir finansų komiteto (EFC) posėdis
+</div>
+</a>
+</div>
+<div class="item_contain col-xs-6">
+<a href="//www.lb.lt/lt/renginiai/tarptautiniu-atsiskaitymu-banko-centriniu-banku-valdytoju-susitikimas" class="item" title="Tarptautinių atsiskaitymų banko Centrinių Bankų valdytojų susitikimas">
+<div class="date">
+<div class="tbl-contain">
+<div class="tbl-inner">
+<span class="day">07</span>
+<span class="month hidden-xs hidden-sm">Rugsėjo</span>
+<span class="month visible-xs-inline-block visible-sm-inline-block">09</span>
+<span class="year">2020</span>
+</div>
+</div>
+</div>
+<div class="title">
+Tarptautinių atsiskaitymų banko Centrinių Bankų valdytojų susitikimas
+</div>
+</a>
+</div>
+<div class="item_contain col-xs-6">
 <a href="//www.lb.lt/lt/renginiai/pinigu-plovimo-prevencijos-atitikties-specialistu-susitikimas-3" class="item" title="Pinigų plovimo prevencijos atitikties specialistų susitikimas">
 <div class="date">
 <div class="tbl-contain">
@@ -4881,40 +4888,6 @@ Pinigų plovimo prevencijos atitikties specialistų susitikimas
 </div>
 <div class="title">
 ECB valdančiosios tarybos pinigų politikos posėdis Frankfurte
-</div>
-</a>
-</div>
-<div class="item_contain col-xs-6">
-<a href="//www.lb.lt/lt/renginiai/pinigu-plovimo-prevencijos-atitikties-specialistu-susitikimas-2" class="item" title="Pinigų plovimo prevencijos atitikties specialistų susitikimas">
-<div class="date">
-<div class="tbl-contain">
-<div class="tbl-inner">
-<span class="day">16</span>
-<span class="month hidden-xs hidden-sm">Rugsėjo</span>
-<span class="month visible-xs-inline-block visible-sm-inline-block">09</span>
-<span class="year">2020</span>
-</div>
-</div>
-</div>
-<div class="title">
-Pinigų plovimo prevencijos atitikties specialistų susitikimas
-</div>
-</a>
-</div>
-<div class="item_contain col-xs-6">
-<a href="//www.lb.lt/lt/renginiai/pinigu-plovimo-prevencijos-atitikties-specialistu-susitikimas-4" class="item" title="Pinigų plovimo prevencijos atitikties specialistų susitikimas">
-<div class="date">
-<div class="tbl-contain">
-<div class="tbl-inner">
-<span class="day">17</span>
-<span class="month hidden-xs hidden-sm">Rugsėjo</span>
-<span class="month visible-xs-inline-block visible-sm-inline-block">09</span>
-<span class="year">2020</span>
-</div>
-</div>
-</div>
-<div class="title">
-Pinigų plovimo prevencijos atitikties specialistų susitikimas
 </div>
 </a>
 </div>
@@ -4955,14 +4928,26 @@ Pinigų plovimo prevencijos atitikties specialistų susitikimas
 <td class="day_ui-state-event-day">
 <a class="ui-state-default">01</a>
 </td>
-<td class="day_ui-state-event-day ui-datepicker-today">
-<a class="ui-state-default ui-state-highlight">02</a>
-</td>
 <td class="day_ui-state-event-day">
-<a class="ui-state-default">03</a>
+<a class="ui-state-default">02</a>
 </td>
-<td class="day_ui-state-event-day">
-<a class="ui-state-default">04</a>
+<td class="day_ui-state-event-day event-day">
+<div class="popover-content hide">
+<div class="popover-event-content">
+<a href="//www.lb.lt/lt/renginiai/marius-jurgilas-dalinsis-izvalgomis-vadovu-konferencijoje-ebit" title="Marius Jurgilas dalinsis įžvalgomis Vadovų konferencijoje EBIT">Marius Jurgilas dalinsis įžvalgomis Vadovų konferencijoje EBIT
+</a>
+</div>
+</div>
+<a href="//www.lb.lt/lt/ivykiai-renginiai?date_from=2020-09-03&amp;date_to=2020-09-03" class="ui-state-default">03</a>
+</td>
+<td class="day_ui-state-event-day ui-datepicker-today event-day">
+<div class="popover-content hide">
+<div class="popover-event-content">
+<a href="//www.lb.lt/lt/renginiai/ekonomikos-ir-finansu-komiteto-efc-posedis" title="Ekonomikos ir finansų komiteto (EFC) posėdis">Ekonomikos ir finansų komiteto (EFC) posėdis
+</a>
+</div>
+</div>
+<a href="//www.lb.lt/lt/ivykiai-renginiai?date_from=2020-09-04&amp;date_to=2020-09-04" class="ui-state-default ui-state-highlight">04</a>
 </td>
 <td class="day_ui-state-event-day">
 <a class="ui-state-default">05</a>
@@ -4971,8 +4956,14 @@ Pinigų plovimo prevencijos atitikties specialistų susitikimas
 <a class="ui-state-default">06</a>
 </td>
 </tr><tr>
-<td class="day_ui-state-event-day">
-<a class="ui-state-default">07</a>
+<td class="day_ui-state-event-day event-day">
+<div class="popover-content hide">
+<div class="popover-event-content">
+<a href="//www.lb.lt/lt/renginiai/tarptautiniu-atsiskaitymu-banko-centriniu-banku-valdytoju-susitikimas" title="Tarptautinių atsiskaitymų banko Centrinių Bankų valdytojų susitikimas">Tarptautinių atsiskaitymų banko Centrinių Bankų valdytojų susitikimas
+</a>
+</div>
+</div>
+<a href="//www.lb.lt/lt/ivykiai-renginiai?date_from=2020-09-07&amp;date_to=2020-09-07" class="ui-state-default">07</a>
 </td>
 <td class="day_ui-state-event-day">
 <a class="ui-state-default">08</a>
@@ -5171,7 +5162,7 @@ Pinigų plovimo prevencijos atitikties specialistų susitikimas
 </div>
 </div>
 <div class="clearfix more_nav_pad">
- <a href="//www.lb.lt/lt/renginiai" class="more_link pull-right">Daugiau</a>
+<a href="//www.lb.lt/lt/renginiai" class="more_link pull-right">Daugiau</a>
 </div>
 </div>
 </div>
@@ -5669,8 +5660,8 @@ Informacijos naudojimo sąlygos
 <script type="text/javascript" src="/scripts/gmaps.js"></script>
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?language=lt&amp;key=AIzaSyDskDca6sCyxCQZW9e5Eh_VgmMNU8uBJsQ"></script>
 <script type="text/javascript" src="/scripts/infobox.js"></script>
-<script type="text/javascript" src="/scripts/scripts.js?1598367579"></script>
-<script type="text/javascript" src="/scripts/anchors.js?1598367579"></script>
+<script type="text/javascript" src="/scripts/scripts.js?1599136949"></script>
+<script type="text/javascript" src="/scripts/anchors.js?1599136949"></script>
 <script>$(function() {
 $('.ck_toggle_text').each(function() { $(this).before('<a class="ck_href ck_expand_href">'+(typeof $(this).attr('title') != "undefined" && $(this).attr('title') != '' ? $(this).attr('title') : 'Išskleisti') + '</a>').append('<a class="ck_href ck_collapse_href">Suskleisti</a>'); } );
 $('body').on('click','a.ck_expand_href',function() { $(this).hide(); $(this).next('.ck_toggle_text').toggleClass('ck_hide_text').toggleClass('collapse').css({ "background-color" : "" }); } );
