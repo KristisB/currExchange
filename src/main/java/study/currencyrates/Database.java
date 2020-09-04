@@ -14,9 +14,13 @@ public class Database {
     public Database(String databaseName) {
         dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUsername("root");
-        dataSource.setPassword("");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/" + databaseName + "?useUnicode=yes&characterEncoding=UTF-8");
+//        dataSource.setUsername("root");
+//        dataSource.setPassword("");
+//        dataSource.setUrl("jdbc:mysql://localhost:3306/" + databaseName + "?useUnicode=yes&characterEncoding=UTF-8");
+        dataSource.setUsername("ba02ebd004a098");
+        dataSource.setPassword("14428edb");
+        dataSource.setUrl("jdbc:mysql://eu-cdbr-west-03.cleardb.net:3306/" + databaseName + "?useUnicode=yes&characterEncoding=UTF-8");
+
         dataSource.setValidationQuery("SELECT 1");
     }
 
@@ -40,7 +44,7 @@ public class Database {
     }
 
     public void addLog(String log) {
-        String query ="INSERT INTO log (log_time, info) VALUES (?,?);";
+        String query = "INSERT INTO log (log_time, info) VALUES (?,?);";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(query)) {
             long timeStamp = System.currentTimeMillis();

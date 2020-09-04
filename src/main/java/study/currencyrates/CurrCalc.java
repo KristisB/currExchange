@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 
 @Controller
 public class CurrCalc {
-    Database db = new Database("currdb");
+    Database db = new Database("heroku_9dea6c2af45e4d4"); //local: "currdb";
 
     @RequestMapping("/home")
     public @ResponseBody
