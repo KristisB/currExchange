@@ -4,11 +4,19 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.annotation.Resources;
 import javax.servlet.http.HttpServletRequest;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.net.URI;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+
+//import static jdk.xml.internal.SecuritySupport.getResourceAsStream;
 
 @Controller
 public class CurrCalc {
@@ -46,10 +54,13 @@ public class CurrCalc {
         return amount1 + " " + curr1 + " exchanged to " + curr2 + " equals: " + result;
     }
 
-    private static String getTextFromFile(String path) {
+    private String getTextFromFile(String path) {
+        byte[] data;
         try {
-            URI fullPath = CurrCalc.class.getClassLoader().getResource(path).toURI();
-            return Files.readString(Paths.get(fullPath));
+            InputStream is = CurrCalc.class.getClassLoader().getResourceAsStream(path);
+            data = is.readAllBytes();
+            String result=new String(data);
+            return result; //Files.readString(Paths.get(fullPath));
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar out/artifacts/CurrencyRates_jar/CurrencyRates.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/CurrencyRates-1.0-SNAPSHOT.jar
