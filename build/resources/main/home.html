@@ -5,13 +5,26 @@
     <title>Currency rates</title>
 </head>
 <body>
-    <form method="post" action="/exchange">
-        <p>Currency:</p>
-        <input name="curr1" />
-        <input name="amount" type="number" step="0.01"/>
-        <p>Convert to:</p>
-        <input name="curr2" />
-        <input type="submit" value="Convert" />
-    </form>
+<form method="post" action="/exchange">
+    <p>Currency:
+        &emsp; &emsp; &emsp; &emsp; &emsp;
+        Amount:
+    </p>
+    <input name="curr1"/>
+    <input name="amount" type="number" step="0.01"/>
+    <p>Convert to:</p>
+    <input name="curr2"/>
+    <input type="submit" value="Convert"/>
+</form>
+<p/>
+<p/>
+<form method="post" action="/load_fxrates">
+    <p>Download fx rates</p>
+    <p></p>
+    <p>Date</p>
+    <input name ="date" type="date"/>
+    <input type="submit" value="Load">
+
+</form>
 </body>
 </html>

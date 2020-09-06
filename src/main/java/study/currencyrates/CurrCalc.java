@@ -36,7 +36,6 @@ public class CurrCalc {
             @RequestParam("amount") double amount1,
             HttpServletRequest request) {
 
-
         String ip = request.getRemoteAddr();
         String log = ip + " requested to trade " + amount1 + " " + curr1 + " into " + curr2;
         System.out.println(log);
@@ -50,8 +49,18 @@ public class CurrCalc {
             return "no such currency in database " + curr2;
         }
         double result = amount1 / rate1 * rate2;
+        return amount1 + " " + curr1 + " exchanged to " + curr2 + " equals: " + result + " " + curr2;
+    }
 
-        return amount1 + " " + curr1 + " exchanged to " + curr2 + " equals: " + result;
+    @RequestMapping("/load_fxrates")
+    public @ResponseBody
+    String loadFxRates(
+            @RequestParam("date") String date) {
+        System.out.println("date: " + date);
+        db.loadFxRates(date);
+
+        return " ";
+
     }
 
     private String getTextFromFile(String path) {
@@ -59,7 +68,7 @@ public class CurrCalc {
         try {
             InputStream is = CurrCalc.class.getClassLoader().getResourceAsStream(path);
             data = is.readAllBytes();
-            String result=new String(data);
+            String result = new String(data);
             return result; //Files.readString(Paths.get(fullPath));
         } catch (Exception e) {
             e.printStackTrace();

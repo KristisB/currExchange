@@ -6,6 +6,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Database {
     private BasicDataSource dataSource;
@@ -52,6 +54,37 @@ public class Database {
             statement.setString(2, log);
             statement.executeUpdate();
 
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void loadFxRates(String date) {
+//        String query = "INSERT INTO ex_rates (curr_code, rate, date) VALUES ('EUR', 1, '2020-09-06'); ";
+        try (Connection connection = dataSource.getConnection();) {
+            PreparedStatement statement = null;
+            HashMap<String,Double> fxRates=new HashMap<>();
+            LbConnect lbConnect = new LbConnect();
+            fxRates= lbConnect.getFxRates(date);
+
+            System.out.println(fxRates.toString());
+
+            StringBuffer query = new StringBuffer("INSERT INTO ex_rates (curr_code, rate, date) values (?, ?, ?)");
+
+            for (int i = 0; i < fxRates.size() - 1; i++) {
+                query.append(", (?, ?, ?)");
+            }
+            statement=connection.prepareStatement(query.toString());
+
+            int indexNo=1;
+            for (Map.Entry<String,Double> entry:fxRates.entrySet()){
+                statement.setString(indexNo,entry.getKey());
+                statement.setString(indexNo+1,entry.getValue().toString());
+                statement.setString(indexNo+2,date);
+                indexNo=indexNo+3;
+            }
+            statement.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();
