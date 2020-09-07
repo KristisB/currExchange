@@ -34,32 +34,51 @@ public class CurrCalc {
             @RequestParam("curr1") String curr1,
             @RequestParam("curr2") String curr2,
             @RequestParam("amount") double amount1,
+            @RequestParam("fxdate") String fxDate,
             HttpServletRequest request) {
 
         String ip = request.getRemoteAddr();
-        String log = ip + " requested to trade " + amount1 + " " + curr1 + " into " + curr2;
+        String log = ip + " requested to calculate rate " + amount1 + " " + curr1 + " into " + curr2+" on date "+fxDate;
         System.out.println(log);
         db.addLog(log);
-        double rate1 = db.getRate(curr1);
+        double rate1 = db.getRate(curr1,fxDate);
         if (rate1 == 0) {
-            return "no such currency in database " + curr1;
+            return "no such currency in database " + curr1+" at date "+ fxDate;
         }
-        double rate2 = db.getRate(curr2);
+        double rate2 = db.getRate(curr2,fxDate);
         if (rate1 == 0) {
-            return "no such currency in database " + curr2;
+            return "no such currency in database " + curr2+" at date "+ fxDate;
         }
         double result = amount1 / rate1 * rate2;
-        return amount1 + " " + curr1 + " exchanged to " + curr2 + " equals: " + result + " " + curr2;
+        return amount1 + " " + curr1 + " exchanged to " + curr2 + " on "+fxDate+" rate equals: " + result + " " + curr2;
     }
 
     @RequestMapping("/load_fxrates")
     public @ResponseBody
     String loadFxRates(
-            @RequestParam("date") String date) {
-        System.out.println("date: " + date);
-        db.loadFxRates(date);
+            @RequestParam("date") String date,
+            HttpServletRequest request) {
+        String ip = request.getRemoteAddr();
+        String log = ip + " requested to load fx rates from LB on date "+date;
+        System.out.println(log);
+        db.addLog(log);
 
-        return " ";
+        if (db.areRatesOnDate(date)) {
+            log ="Fx rates of this date already exist in DB";
+            db.addLog(log);
+            return log;
+        } else {
+            db.loadFxRates(date);
+            if (db.areRatesOnDate(date)) {
+                log="Fx rates successfully loaded from LB";
+                db.addLog(log);
+                return log;
+            } else {
+                log= "Unable to load Fx rates... check connection.";
+                db.addLog(log);
+                return log;
+            }
+        }
 
     }
 

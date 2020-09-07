@@ -26,11 +26,12 @@ public class Database {
         dataSource.setValidationQuery("SELECT 1");
     }
 
-    public double getRate(String curr) {
-        String query = "SELECT rate FROM ex_rates WHERE curr_code=?; ";
+    public double getRate(String curr, String fxDate) {
+        String query = "SELECT rate FROM ex_rates WHERE curr_code=? and date=? ; ";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setString(1, curr);
+            statement.setString(2, fxDate);
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
                 return resultSet.getDouble("rate");
@@ -70,8 +71,8 @@ public class Database {
 
             System.out.println(fxRates.toString());
 
+            //constructing query for inserting multiple records into db
             StringBuffer query = new StringBuffer("INSERT INTO ex_rates (curr_code, rate, date) values (?, ?, ?)");
-
             for (int i = 0; i < fxRates.size() - 1; i++) {
                 query.append(", (?, ?, ?)");
             }
@@ -89,5 +90,19 @@ public class Database {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public boolean areRatesOnDate(String date){
+        String query = "SELECT * FROM ex_rates WHERE date=?; ";
+        boolean result= false;
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(query)) {
+            statement.setString(1, date);
+            ResultSet resultSet = statement.executeQuery();
+            result= resultSet.next();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }
